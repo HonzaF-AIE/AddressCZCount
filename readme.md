@@ -5,7 +5,8 @@ Zdroj dat: [Adresní body (RSO)](https://data.gov.cz/datov%C3%A1-sada?iri=https%
 Pro více informací navštivte:[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Poznámka:
-Původní data byla stažena ve formátu geojson. Dále byla převedena do csv pomocí Pythonu 3.13 a knihovny pandas 2.3. Data byla agregována a sloučena dle obce a ulice/čtvrti tak aby ukazovala počet adres v jednoce.
+Původní data byla stažena ve formátu geojson. Dále byla převedena do csv pomocí Pythonu 3.13 a knihovny pandas 2.3. Data byla agregována a sloučena dle obce a ulice/čtvrti tak aby ukazovala počet adres v jednoce. Ostatní údaje byly odstraněny.
+
 ----------------------------------------------
 This data is made available under the Creative Commons Attribution 4.0 International License (CC BY 4.0) by [Portál o datech](https://data.gov.cz)..
 You are free to share, copy, distribute, and adapt the data for any purpose, even commercially,
@@ -14,4 +15,4 @@ Source: [Adresní body (RSO)](https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%
 For more information, visit: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Notes:
-The original data were downloaded in geojson format. Then it was formated into csv using python 3.13 and pandas 2.3. The data were grouped by city and street/quarter to show the number of address points in each unit.
+The original data were downloaded in geojson format. Then it was formated into csv using python 3.13 and pandas 2.3. The data were grouped by city and street/quarter to show the number of address points in each unit. The rest of the features was removed.
